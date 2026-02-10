@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: fi
-handle: 2027/04/20/my-example-post
+handle: 2017/04/20/my-example-post
 ---
 
 # FIN Example Post
