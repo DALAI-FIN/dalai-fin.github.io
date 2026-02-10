@@ -7,15 +7,15 @@
         {% else %}
             {% if page.name contains "index" %}
                 {% if lang == site.default_lang %}
-                    <a href="{{ site.baseurl }}">{{ lang_name }}</a>
+                    <a href="{{ site.url }}">{{ lang_name }}</a>
                 {% else %}
-                    <a href="{{ site.baseurl | append: lang }}">{{ lang_name }}</a>
+                    <a href="{{ site.url | append: '/' | append: lang }}">{{ lang_name }}</a>
                 {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
-                    <a href="{{ site.baseurl | append: page.handle }}">{{ lang_name }}</a>
+                    <a href="{{ site.url | append: page.handle }}">{{ lang_name }}</a>
                 {% else %}
-                    <a href="{{ site.baseurl | append: lang | append: page.handle }}">{{ lang_name }}</a>
+                    <a href="{{ site.url | append: '/' | append: lang | append: page.handle }}">{{ lang_name }}</a>
                 {% endif %}
             {% endif %}
             

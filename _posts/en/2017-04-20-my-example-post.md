@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-handle: 2017/04/20/my-example-post
+handle: /2017/04/20/my-example-post
 title: "My Example Post"
 ---
 
