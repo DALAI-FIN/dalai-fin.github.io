@@ -2,6 +2,7 @@
 layout: post
 title: "Example content"
 lang: en
+handle: 2017/04/29/cayman-example-content
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
