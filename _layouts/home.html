@@ -11,7 +11,7 @@ layout: default
   <div>&nbsp;</div>
 
   <ul class="post-list">
-    {% assign posts = site.posts | where: 'lang', site.active_lang %}
+    {% assign posts = site.posts | where: "lang", site.active_lang %}
     {% for post in posts %}
       <li>
 
