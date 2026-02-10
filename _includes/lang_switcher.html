@@ -14,7 +14,7 @@
                 {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
-                    {% assign url = site.url | append: "/" | append: page.handle | append: ".html" %}
+                    {% assign url = "/" | append: page.handle | append: ".html" %}
                     {{ url }}
                     <a href="{{ url }}">{{ lang_name }}</a>
                 {% else %}
