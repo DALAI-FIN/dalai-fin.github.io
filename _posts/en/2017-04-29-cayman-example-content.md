@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Example content"
+language: en
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

@@ -11,7 +11,8 @@ layout: default
   <div>&nbsp;</div>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% assign posts = site.posts | where: 'page',page.language %}
+    {% for post in posts %}
       <li>
 
         {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
