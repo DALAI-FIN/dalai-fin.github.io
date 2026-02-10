@@ -6,6 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: "Dalai-Fin"
+tagline: "Blog of Dalai-Fin"
 ---
 
 # Introduction
