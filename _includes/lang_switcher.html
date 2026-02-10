@@ -9,13 +9,13 @@
                 {% if lang == site.default_lang %}
                     <a href="{{ site.url }}">{{ lang_name }}</a>
                 {% else %}
-                    <a href="{{ site.url | append: '/' | append: lang }}">{{ lang_name }}</a>
+                    <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
                 {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
-                    <a href="{{ site.url | append: page.handle }}">{{ lang_name }}</a>
+                    <a href="{{ site.url}}/{{ page.handle }}">{{ lang_name }}</a>
                 {% else %}
-                    <a href="/{{ lang }}{{ page.handle }}">{{ lang_name }}</a>
+                    <a href="{{ site.url }}/{{ lang }}/{{ page.handle }}">{{ lang_name }}</a>
                 {% endif %}
             {% endif %}
             
