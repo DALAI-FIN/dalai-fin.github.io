@@ -1,7 +1,5 @@
 
 <div class="lang_switcher">
-    {{ site.url }} <br />
-    {{ page.handle }} <br />
     {% for lang in site.languages %}
         {% assign lang_name = site.data[lang].l10n.lang_name %}
         {% if lang == site.active_lang %}
@@ -9,16 +7,20 @@
         {% else %}
             {% if page.name contains "index" %}
                 {% if lang == site.default_lang %}
+
                     <a href="{{ site.url }}">{{ lang_name }}</a>
                 {% else %}
                     <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
                 {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
-                    <a href="{{ site.url }}/{{ page.handle }}.html">{{ lang_name }}</a>
+                    {% assign url = site.url | append: "/" | append: page.handle | append: ".html" %}
+                    {{ url }}
+                    <a href="{{ url }}">{{ lang_name }}</a>
                 {% else %}
                     <a href="{{ site.url }}/{{ lang }}/{{ page.handle }}.html">{{ lang_name }}</a>
                 {% endif %}
+
             {% endif %}
             
         {% endif %}
