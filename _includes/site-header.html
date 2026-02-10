@@ -5,7 +5,7 @@
     {% assign page_refs = site.header_page_refs | default: default_refs %}
 
     {% if page.layout != 'home' %}
-      <a class="site-title" href="{{ "/" | absolute_url }}">{{ site.title | escape }}</a>
+      <a class="site-title" href="{{ "/" | absolute_url }}">{{ site.data.l10n.title | escape }}</a>
     {% endif %}
 
     {% if page_refs %}
@@ -34,5 +34,7 @@
         </div>
       </nav>
     {% endif %}
+
+    {% include lang_switcher.html %}
   </div>
 </header>

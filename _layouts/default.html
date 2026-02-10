@@ -23,7 +23,7 @@
     {% if page.title %}
     {% assign page-title = page.title | escape %}
     {% else %}
-    {% assign page-title = site.title | escape %}
+    {% assign page-title = site.data.l10n.title | escape %}
     {% endif %}
     
     <title>{{ page-title }}</title>
@@ -37,7 +37,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
     {% if site.plugins contains "jekyll-feed" %}
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.data.l10n.title | escape }}" href="{{ "/feed.xml" | absolute_url }}">
     {% endif %}
     
     <link rel="shortcut icon" href="{{ "/favicon.ico" | absolute_url }}">

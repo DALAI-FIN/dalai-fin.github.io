@@ -6,17 +6,13 @@ baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it emp
 url: "https://dalai-fin.github.io" # change this to the base hostname & protocol for your site
 
 
-defaults:
-- scope:
-    path: '_posts/en'
-  values:
-    permalink: 'post/en/:title'
-    language: en
-- scope:
-    path: '_posts/fi'
-  values:
-    permalink: 'post/fi/:title'
-    language: fi
+
+plugins:
+  - jekyll-polyglot
+languages: ["en", "fi"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/img"]
+parallel_localization: true
 
 
 google_analytics:
