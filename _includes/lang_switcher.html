@@ -13,7 +13,7 @@
                 {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
-                    <a href="{{ site.url }}/{{ page.handle }}.html">{{ lang_name }}</a>
+                    <a href="{{ site.url }}/{{ page.handle }}.html">{{ site.url }}/{{ page.handle }}</a>
                 {% else %}
                     <a href="{{ site.url }}/{{ lang }}/{{ page.handle }}.html">{{ lang_name }}</a>
                 {% endif %}
