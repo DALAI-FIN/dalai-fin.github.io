@@ -5,15 +5,16 @@
         {% if lang == site.active_lang %}
             {{ lang_name }}
         {% else %}
-            {% assign base_url = site.url %}
-            {% if page.layout == 'home' and lang != site.default_lang %}
-                {% assign base_url = base_url | append: '/' | append: lang %}
+            {% if page.layout == 'home' and lang == site.default_lang %}
+                {% assign url = site.url %}
+            {% elsif page.layout == 'home' and lang != site.default_lang %}
+                {% assign url = site.url | append: '/' | append: lang %}
             {% elsif lang == site.default_lang%}
-                {% assign base_url = base_url | append: '/' | append: page.handle | append: '.html' %}
+                {% assign url = site.url | append: '/' | append: page.handle | append: '.html' %}
             {% else %}
-                {% assign base_url = base_url | append: '/' | append: lang | append: '/' | append: page.handle | append: '.html' %}
+                {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.handle | append: '.html' %}
             {% endif %}
-            <a href="{{ base_url }}">{{ lang_name }}</a>
+            <a href="{{ url }}">{{ url }}</a>
             
         {% endif %}
     {% endfor %}
