@@ -5,9 +5,8 @@
         {% if lang == site.active_lang %}
             {{ lang_name }}
         {% else %}
-            {% if page.name contains "index" %}
+            {% if page.layout == 'home' %}
                 {% if lang == site.default_lang %}
-
                     <a href="{{ site.url }}">{{ lang_name }}</a>
                 {% else %}
                     <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
