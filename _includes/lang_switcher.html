@@ -14,7 +14,7 @@
             {% else %}
                 {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.handle | append: '.html' %}
             {% endif %}
-            <a  {% static_href %}href="{{ url }}" {% endstatic_href  %}>{{ lang_name }}</a>
+            <a  {% static_href %} href="{{ url }}" {% endstatic_href  %}>{{ lang_name }}</a>
             
         {% endif %}
     {% endfor %}
