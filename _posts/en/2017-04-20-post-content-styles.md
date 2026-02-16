@@ -3,7 +3,10 @@ layout: post
 lang: en
 handle: junk/2017/04/20/post-content-styles
 title: Post content styles
+tagline: This post demonstrates post content styles
 categories: junk
+image: /thumbnail-mobile.png
+meta: Springfield
 
 ---
 
