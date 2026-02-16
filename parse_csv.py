@@ -4,7 +4,7 @@ import os
 import shutil
 from dateutil import parser
 
-LANGUAGES = ['en', 'fi', 'zh']
+LANGUAGES = ['en', 'fi',]
 META_ENTRIES = ['title', 'tagline', 'categories', 'image', 'meta']
 EXAMPLE_CSV_FILE = 'dalai-fin_blog - example.csv'
 
