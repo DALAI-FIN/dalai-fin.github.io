@@ -2,8 +2,8 @@
 
 source 'https://rubygems.org'
 
-
+gem "kramdown-parser-gfm"
+gem "jekyll-polyglot"
 
 gemspec
 
-gem "jekyll-polyglot"

@@ -6,7 +6,8 @@ categories: junk
 image: /thumbnail-mobile.png
 author: "Bart Simpson"
 meta: "Springfield"
-language: en
+lang: en
+handle: junk/2017/04/20/post-content-styles
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
