@@ -5,16 +5,20 @@
         {% if lang == site.active_lang %}
             {{ lang_name }}
         {% else %}
-            {% if page.layout == 'home' and lang == site.default_lang %}
-                {% assign url = site.url %}
-            {% elsif page.layout == 'home' and lang != site.default_lang %}
-                {% assign url = site.url | append: '/' | append: lang %}
-            {% elsif lang == site.default_lang%}
-                {% assign url = site.url | append: '/' | append: page.handle | append: '.html' %}
+            {% if page.layout == 'home' %}
+                {% if lang == site.default_lang %}
+                    <a href="{{ site.url }}">{{ lang_name }}</a>
+                {% else %}
+                    <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
+                {% endif %}
             {% else %}
-                {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.handle | append: '.html' %}
+                {% if lang == site.default_lang %}
+                    {% assign url = site.url | append: '/' | append: page.handle | append: '.html' %}
+                {% else %}
+                    {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.handle | append: '.html' %}
+                {% endif %}
+                <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
             {% endif %}
-            <a  {% static_href %} href="{{ url }}" {% endstatic_href  %}>{{ lang_name }}</a>
             
         {% endif %}
     {% endfor %}
