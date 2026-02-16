@@ -1,8 +1,11 @@
 import csv
+import sys
+import os
 from dateutil import parser
+
 LANGUAGES = ['en', 'fi']
 META_ENTRIES = ['title', 'tagline', 'categories', 'image', 'meta']
-CSV_FILE = 'dalai-fin_blog - example.csv'
+EXAMPLE_CSV_FILE = 'dalai-fin_blog - example.csv'
 
 POST_TEMPLATE = """---
 layout: post
@@ -14,7 +17,11 @@ layout: post
 """
 
 if __name__ == "__main__":
-    with open(CSV_FILE, "r", encoding="utf-8") as f:
+    csv_file = sys.argv[1] if len(sys.argv) > 1 else EXAMPLE_CSV_FILE
+    if not os.path.exists(csv_file):
+        print(f"Error: File '{csv_file}' does not exist.")
+        sys.exit(1)
+    with open(csv_file, "r", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             for lang in LANGUAGES:
                 if not row[lang]:
