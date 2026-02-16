@@ -1,9 +1,10 @@
 import csv
 import sys
 import os
+import shutil
 from dateutil import parser
 
-LANGUAGES = ['en', 'fi']
+LANGUAGES = ['en', 'fi', 'zh']
 META_ENTRIES = ['title', 'tagline', 'categories', 'image', 'meta']
 EXAMPLE_CSV_FILE = 'dalai-fin_blog - example.csv'
 
@@ -21,10 +22,13 @@ if __name__ == "__main__":
     if not os.path.exists(csv_file):
         print(f"Error: File '{csv_file}' does not exist.")
         sys.exit(1)
+    for lang in LANGUAGES:
+        shutil.rmtree(f"_posts/{lang}", ignore_errors=True)
+        os.makedirs(f"_posts/{lang}", exist_ok=True)
     with open(csv_file, "r", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             for lang in LANGUAGES:
-                if not row[lang]:
+                if lang not in row or not row[lang]:
                     continue
                 metadata = f'lang: {lang}\n'
                 date = parser.parse(row['date'])
