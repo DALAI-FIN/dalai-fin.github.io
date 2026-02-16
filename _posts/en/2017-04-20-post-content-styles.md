@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "Post content styles"
-tagline: "This post demonstrates post content styles"
-categories: junk
-image: /thumbnail-mobile.png
-author: "Bart Simpson"
-meta: "Springfield"
 lang: en
 handle: junk/2017/04/20/post-content-styles
+title: Post content styles
+categories: junk
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
@@ -90,3 +87,5 @@ Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet b
 Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
+
+
