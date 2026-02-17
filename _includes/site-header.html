@@ -23,7 +23,7 @@
 
         <div class="trigger">
           {% for ref in page_refs %}
-            <a class="page-link" href="/{{ ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] | default: ref }}</a>
+            <a class="page-link" href="{{ ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] | default: ref }}</a>
           {% endfor %}
         </div>
       </nav>
