@@ -1,8 +1,9 @@
 ---
 layout: post
 lang: fi
-handle: 2017/04/20/my-example-post
+handle: publication/2017/04/20/my-example-post
 title: My example post
+categories: publication
 
 ---
 

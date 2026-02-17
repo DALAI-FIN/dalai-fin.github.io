@@ -1,8 +1,9 @@
 ---
 layout: post
 lang: en
-handle: 2017/04/20/welcome-to-jekyll
+handle: news/2017/04/20/welcome-to-jekyll
 title: Welcome to Jekyll
+categories: news
 
 ---
 

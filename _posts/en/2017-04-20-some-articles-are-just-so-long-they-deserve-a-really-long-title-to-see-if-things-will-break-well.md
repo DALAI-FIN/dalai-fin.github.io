@@ -1,9 +1,9 @@
 ---
 layout: post
 lang: en
-handle: misc/2017/04/20/some-articles-are-just-so-long-they-deserve-a-really-long-title-to-see-if-things-will-break-well
+handle: event/2017/04/20/some-articles-are-just-so-long-they-deserve-a-really-long-title-to-see-if-things-will-break-well
 title: Some articles are just so long they deserve a really long title to see if things will break well
-categories: misc
+categories: event
 
 ---
 
