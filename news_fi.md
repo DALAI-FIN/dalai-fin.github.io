@@ -3,7 +3,7 @@ layout: page
 title: News
 tagline: This is a list of news for FIN
 permalink: /fi/news.html
-handle: /fi/news
+handle: fi/news
 ref: news
 lang: fi
 ---

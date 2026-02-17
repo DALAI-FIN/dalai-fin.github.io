@@ -3,7 +3,7 @@ layout: page
 title: News
 tagline: This is a list of news for ENG
 permalink: /news.html
-handle: /news
+handle: news
 ref: news
 lang: en
 ---

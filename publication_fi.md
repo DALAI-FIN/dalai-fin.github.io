@@ -2,8 +2,8 @@
 layout: page
 title: Publication
 tagline: This is a list of publications for FIN
-permalink: /fi/publication.html
-handle: /fi/publication
+permalink: /fi/publications.html
+handle: fi/publications
 ref: publication
 lang: fi
 ---

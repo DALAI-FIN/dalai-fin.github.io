@@ -2,8 +2,8 @@
 layout: page
 title: Publication
 tagline: This is a list of publications for ENG
-permalink: /publication.html
-handle: /publication
+permalink: /publications.html
+handle: publications
 ref: publication
 lang: en
 ---

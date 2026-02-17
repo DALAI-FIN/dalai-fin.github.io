@@ -3,7 +3,7 @@ layout: category
 title: Events
 tagline: This is a list of events for ENG
 permalink: /events.html
-handle: /events
+handle: events
 ref: event
 lang: en
 ---
