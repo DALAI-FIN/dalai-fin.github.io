@@ -36,4 +36,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['Publication', 'Events', 'News']
+header_page_refs: ['Publications', 'Events', 'News']

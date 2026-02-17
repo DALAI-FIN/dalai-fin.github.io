@@ -23,7 +23,12 @@
 
         <div class="trigger">
           {% for ref in page_refs %}
-            <a class="page-link" href="{{ ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] | default: ref }}</a>
+            {% if site.active_lang == site.default_lang %}
+              <a class="page-link" href="{{ ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] }}</a>
+            {% else %}
+              <a class="page-link" href="{{ site.active_lang | append: '/' | append: ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] }}</a>
+            {% endif %}
+            
           {% endfor %}
         </div>
       </nav>
