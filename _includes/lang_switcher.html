@@ -11,6 +11,12 @@
                 {% else %}
                     <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
                 {% endif %}
+            {% elsif page.layout == 'category' %}
+                {% if lang == site.default_lang %}
+                    <a href="/{{ page.ref | append: '.html' | downcase }}">{{ lang_name }}</a>
+                {% else %}
+                    <a href="/{{ lang | append: '/' | append: page.ref | append: '.html' | downcase }}">{{ lang_name }}</a>
+                {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
                     {% assign url = site.url | append: '/' | append: page.handle | append: '.html' %}
