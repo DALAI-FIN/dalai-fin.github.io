@@ -11,7 +11,8 @@ layout: default
   <div>&nbsp;</div>
 
   <ul class="post-list">
-    {% for post in site.posts | where: "lang", {{site.active_lang}} | sort: 'date' | reverse %}
+    {% assign posts = site.posts | where: "lang", {{site.active_lang}} | sort: 'date' | reverse %}
+    {% for post in posts %}
         <li>
         
           {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
