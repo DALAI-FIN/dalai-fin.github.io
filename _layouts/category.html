@@ -11,7 +11,7 @@ layout: default
     <div>&nbsp;</div>
 
     <ul class="post-list">
-        {% assign posts = site.posts | where: "lang", {{site.active_lang}} | where: "category", {{page.ref}} | sort: 'date' | reverse %}
+        {% assign posts = site.posts | where: "lang", {{site.active_lang}} | where: "categories", {{page.ref}} | sort: 'date' | reverse %}
 
         {% for post in posts %}
         <li>
