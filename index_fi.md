@@ -8,11 +8,13 @@
 layout: home
 title: "Dalai-Fin"
 tagline: "Blog of Dalai-Fin"
+lang: fi
+permalink: /index.html
 ---
 
 # Introduction
 
-....
+This is the FIN home page of Dalai-Fin. 
 
 
 # Funder info
