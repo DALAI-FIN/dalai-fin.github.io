@@ -25,7 +25,9 @@ layout: default
             </h2>
 
             {{ post.excerpt | markdownify | truncatewords: 30 }}
-            <img src="{{ post.image | absolute_url }}" alt="{{ post.title | escape }}" />
+            {% if post.image %}
+                <img src="{{ post.image | absolute_url }}" alt="{{ post.title | escape }}" />
+            {% endif %}
         </li>
 
         {% endfor %}
