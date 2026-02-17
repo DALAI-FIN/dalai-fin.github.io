@@ -24,9 +24,9 @@
         <div class="trigger">
           {% for ref in page_refs %}
             {% if site.active_lang == site.default_lang %}
-              <a class="page-link" href="{{ ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] }}</a>
+              <a class="page-link" href="/{{ ref | append: '.html' | downcase }}">{{ site.data.l10n[ref] }}</a>
             {% else %}
-              <a class="page-link" href="{{ site.active_lang | append: '/' | append: ref | append: '.html' | downcase | absolute_url }}">{{ site.data.l10n[ref] }}</a>
+              <a class="page-link" href="/{{ site.active_lang | append: '/' | append: ref | append: '.html' | downcase }}">{{ site.data.l10n[ref] }}</a>
             {% endif %}
             
           {% endfor %}

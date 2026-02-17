@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Publication
+layout: category
+title: Publications
 tagline: This is a list of publications for ENG
 permalink: /publications.html
 handle: publications

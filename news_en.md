@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category
 title: News
 tagline: This is a list of news for ENG
 permalink: /news.html
