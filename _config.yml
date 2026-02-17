@@ -9,7 +9,7 @@ url: "https://dalai-fin.github.io" # change this to the base hostname & protocol
 
 languages: ["en", "fi"]
 default_lang: "en"
-exclude_from_localization: ["assets/css", "assets/img"]
+exclude_from_localization: ["assets/css", "assets/image"]
 parallel_localization: true
 
 
