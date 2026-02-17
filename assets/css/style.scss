@@ -18,7 +18,9 @@ body {
     font-family: "Roboto";
     color: #372DBF;
 }
-
+.page-header {
+    background-image: linear-gradient(75deg, #ADE0D0, #372DBF, #ADE0D0);
+}
 .page-header>h1,
 .page-header>h2 {
     color: #FFFFFF;
