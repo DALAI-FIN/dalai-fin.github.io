@@ -3,7 +3,7 @@ layout: category
 title: Events
 tagline: This is a list of events for FIN
 permalink: /events.html
-handle: fi/events
+handle: events
 ref: event
 lang: fi
 ---
