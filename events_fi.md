@@ -2,7 +2,7 @@
 layout: category
 title: Events
 tagline: This is a list of events for FIN
-permalink: /fi/events.html
+permalink: /events.html
 handle: fi/events
 ref: event
 lang: fi

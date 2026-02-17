@@ -2,7 +2,7 @@
 layout: category
 title: Publications
 tagline: This is a list of publications for FIN
-permalink: /fi/publications.html
+permalink: /publications.html
 handle: fi/publications
 ref: publication
 lang: fi
