@@ -1,10 +1,9 @@
 title: DALAI-FIN
-description: Blog for DALAI-FIN.
+description: AI for teaching and learning Finnish
 show_downloads: true
 
 baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://dalai-fin.github.io" # change this to the base hostname & protocol for your site
-
 
 
 languages: ["en", "fi"]
