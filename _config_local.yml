@@ -1,0 +1,38 @@
+title: DALAI-FIN
+description: AI for teaching and learning Finnish
+show_downloads: true
+
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "" # change this to the base hostname & protocol for your site
+
+
+languages: ["en", "fi"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/image"]
+parallel_localization: true
+
+
+google_analytics:
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+post:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+# social
+author: DALAI-FIN
+image: /assets/thumbnail-jumbo.png
+twitter:
+  username: lorepirri
+
+plugins:
+  - jekyll-target-blank
+  - jekyll-polyglot
+  - kramdown-parser-gfm
+
+target-blank:
+    rel: nofollow
+
+header_page_refs: ['Publications', 'Events', 'News']
