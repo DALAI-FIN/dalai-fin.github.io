@@ -6,8 +6,6 @@ layout: default
 
     {{ content }}
 
-    <h2>Latest Posts</h2>
-
     <div>&nbsp;</div>
 
     <ul class="post-list">
@@ -18,6 +16,10 @@ layout: default
 
             {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
+            
+            {% if post.image %}
+                <img src="{{ post.image | absolute_url }}" alt="{{ post.title | escape }}" />
+            {% endif %}
 
             <h2>
                 <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title |
@@ -25,9 +27,7 @@ layout: default
             </h2>
 
             {{ post.excerpt | markdownify | truncatewords: 30 }}
-            {% if post.image %}
-                <img src="{{ post.image | absolute_url }}" alt="{{ post.title | escape }}" />
-            {% endif %}
+            
         </li>
 
         {% endfor %}
