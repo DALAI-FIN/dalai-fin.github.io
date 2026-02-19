@@ -8,25 +8,57 @@ layout: default
 
   <div>&nbsp;</div>
 
-  <ul class="post-list">
-    {% assign posts = site.posts | where: "lang", site.active_lang | sort: 'date' | reverse %}
-    {% for post in posts %}
-        <li>
-        
-          {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
+<div class="post-list-grid">
 
-          <h2>
-            <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-          </h2>
-          {% if post.image %}
-            <img src="{{ post.image | absolute_url }}" alt="{{ post.title | escape }}" />
-          {% endif %}
-          {{ post.excerpt | markdownify | truncatewords: 30 }}
-          
-        </li>
-      
-    {% endfor %}
-  </ul>
+  {% assign posts = site.posts | where: "lang", site.active_lang | sort: 'date' | reverse %}
 
+  {% for post in posts %}
+  <article class="post-card">
+
+    <!-- Thumbnail -->
+  {% assign default_image = "/assets/images/dalai_default_post.png" %}
+  {% assign image_url = post.image | default: default_image %}
+
+  <a class="post-card-image-wrapper" href="{{ post.url | relative_url }}" title="{{ post.title }}">
+    <img
+        src="{{ image_url | relative_url }}"
+        alt="{{ post.title | escape }}"
+        class="post-card-image {% if image_url == default_image %}post-card-image--default{% endif %}">
+  </a>
+
+    <div class="post-card-content">
+
+      <!-- Title -->
+      <h2 class="post-card-title">
+        <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">
+          {{ post.title | escape }}
+        </a>
+      </h2>
+
+      <!-- Excerpt -->
+      <p class="post-card-excerpt">
+        {{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}
+      </p>
+
+      <!-- Category pill -->
+      {% if post.categories %}
+      <span class="post-card-category">
+        {{ post.categories | first }}
+      </span>
+      {% endif %}
+
+      <!-- Date -->
+      <span class="post-card-date">
+        {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
+        {{ post.date | date: date_format }}
+      </span>
+
+      <!-- Read more -->
+      <a href="{{ post.url | relative_url }}" class="post-card-cta">Read more →</a>
+
+    </div>
+  </article>
+  {% endfor %}
+
+</div>
 </div>
