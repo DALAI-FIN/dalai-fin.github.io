@@ -3,6 +3,8 @@
 
 @import 'jekyll-theme-cayman-blog';
 
+
+
 h1 {
     font-family: "Josefin Sans", sans-serif;
     color: #372DBF;
@@ -25,6 +27,14 @@ body {
 }
 .page-header {
     background-image: linear-gradient(75deg, #ADE0D0, #372DBF, #ADE0D0);
+}
+
+.site-title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #372DBF !important;
+    letter-spacing: 0.7px;
+    font-weight: 500;
 }
 
 .page-header>h1,
@@ -91,9 +101,24 @@ header nav a {
 }
 
 /* Consortium logos */
+.footer-center-wrapper {
+  max-width: 900px;             
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  padding-top: 1.5rem;
+}
+
 .footer-logos img {
-  width: 38px;
-  height: 38px;
+  width: 138px;
+  height: 138px;
   object-fit: contain;
   margin-right: 0.5rem;
   filter: grayscale(90%) brightness(0.9);
@@ -454,4 +479,65 @@ header nav a {
     order: 3; /* ensure it drops below the nav */
     margin-top: 0.5rem;
   }
+}
+
+.about-hero {
+  margin-bottom: 3rem;
+}
+
+/* About page */
+.about-hero h1 {
+  font-size: 2.1rem;
+  color: #372DBF;
+  margin-bottom: 1rem;
+}
+
+.about-hero .lead {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero-list {
+  margin-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.wp-section h2 {
+  color: #372DBF;
+  margin-top: 2.5rem;
+}
+
+.wp-members li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.wp-members strong {
+  color: #333;
+}
+
+/* WP section header colors */
+.wp-section h2,
+.wp-section h3 {
+  color: #639384;
+}
+
+.wp-section a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #5557FF !important;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  text-decoration: underline;
+}
+
+.wp-members {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.wp-members li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
