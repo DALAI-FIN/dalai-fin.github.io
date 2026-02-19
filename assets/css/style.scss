@@ -8,6 +8,11 @@ h1 {
     color: #372DBF;
 }
 
+.main-content h1,
+.page-content h1 {
+  color: #372DBF;
+}
+
 h2,
 h3 {
     font-family: "Roboto Slab", serif;
@@ -21,12 +26,36 @@ body {
 .page-header {
     background-image: linear-gradient(75deg, #ADE0D0, #372DBF, #ADE0D0);
 }
+
 .page-header>h1,
 .page-header>h2 {
     color: #FFFFFF;
+    font-weight: 400 !important;    /* remove bold */
+    letter-spacing: 0.5px;
 }
 
-/* Matching but toned-down gradient footer */
+.page-header>h1 {
+    text-transform: uppercase;
+}
+
+/* MENU LINKS */
+.site-nav .page-link,
+.site-nav a,
+.navbar a,
+header nav a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #372DBF !important;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+}
+
+/* Optional: hover effect */
+.site-nav a:hover {
+    opacity: 0.75;
+}
+
+/* Footer */
 .custom-footer {
   padding: 2.2rem 1rem;
   margin-top: 3rem;
@@ -38,7 +67,6 @@ body {
     rgba(173, 224, 208, 0.35)
   );
 
-  color: #111;
   border-top: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -88,7 +116,8 @@ body {
 /* LinkedIn icon styling */
 .footer-icon {
   display: inline-flex;
-  color: #0a66c2;             /* LinkedIn blue */
+  /*color: #0a66c2;             /* LinkedIn blue */
+  filter: grayscale(90%) brightness(0.9);
   opacity: 0.85;
   transition: opacity 0.2s ease;
   margin-top: 0.2rem;
@@ -96,6 +125,14 @@ body {
 
 .footer-icon:hover {
   opacity: 1;
+}
+
+.site-footer .footer-link {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #5557FF !important;
+  font-weight: 500;
+  letter-spacing: 0.7px;
 }
 
 /* Mobile responsiveness */
@@ -110,5 +147,311 @@ body {
   .footer-logos img {
     margin-right: 0.3rem;
     margin-left: 0.3rem;
+  }
+}
+
+/* --- HERO INTRO --- */
+.hero-intro {
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero-intro h1 {
+  color: #372DBF;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-intro .lead {
+  font-size: 1.25rem;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+/* --- FEATURE BLOCKS --- */
+.feature-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 4rem 0;
+}
+
+.feature {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.feature:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.feature-image img {
+  width: 160px;
+  height: auto;
+  opacity: 0.9;
+}
+
+.feature-text h3 {
+  color: #639384;
+  margin-bottom: 0.7rem;
+}
+
+.feature-text p {
+  max-width: 600px;
+  line-height: 1.5;
+  color: #5557FF;
+}
+
+
+/* --- MOBILE ADJUSTMENTS --- */
+@media (max-width: 700px) {
+  .vision-block,
+  .feature {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .vision-image img,
+  .feature-image img {
+    margin-top: 1rem;
+  }
+}
+
+/* === BACKGROUND SECTION === */
+
+.background-box {
+  background: #f5f5f6;            /* soft, modern grey */
+  border-radius: 8px;
+  padding: 2.5rem 2rem;
+  margin: 4rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.background-text {
+  flex: 2;
+  max-width: 700px;
+}
+
+.background-text h2 {
+  color: #372DBF;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.background-text h3 {
+  margin-top: 0.25rem;
+  color: #372DBF;
+}
+
+.background-text p {
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/* Link styling in this box */
+.background-text a {
+  color: #5557FF;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.background-text a:hover {
+  opacity: 0.8;
+}
+
+/* Logo column */
+.background-logo img {
+  width: 160px;
+  height: auto;
+  opacity: 0.95;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 700px) {
+  .background-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .background-logo img {
+    margin-top: 1rem;
+  }
+}
+
+/* Gradient top border for the Background section */
+.background-box {
+  position: relative;
+}
+
+/* The gradient bar */
+.background-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;                     /* thickness of the gradient line */
+  width: 100%;
+  border-radius: 8px 8px 0 0;       /* match box rounding */
+  background: linear-gradient(
+    75deg,
+    #ADE0D0,
+    #372DBF,
+    #ADE0D0
+  );
+}
+
+/* === POST LIST GRID === */
+.post-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+/* === POST CARD === */
+.post-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Thumbnail wrapper */
+.post-card-image-wrapper {
+  display: block;
+  width: 100%;
+  height: 180px; /* consistent thumbnail height */
+  overflow: hidden;
+}
+
+.post-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* makes all thumbnails uniform */
+}
+
+.post-card-image--default {
+  filter: grayscale(20%);
+  opacity: 0.9;
+}
+
+/* === POST CONTENT === */
+.post-card-content {
+  padding: 1.2rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  flex-grow: 1;
+}
+
+/* Title */
+.post-card-title {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.post-card-title a {
+  color: #372DBF;
+  letter-spacing: 0.8px;
+}
+
+/* Excerpt */
+.post-card-excerpt {
+  color: #444;
+  line-height: 1.5;
+  margin: 0.3rem 0 0.5rem;
+}
+
+/* Category pill */
+.post-card-category {
+  display: inline-block;
+  align-self: start;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid #372DBF;
+  color: #372DBF;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 0.2rem;
+}
+
+/* Date styling */
+.post-card-date {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* CTA */
+.post-card-cta {
+  margin-top: auto;
+  display: inline-block;
+  padding-top: 0.5rem;
+  color: #5557FF;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.post-card-cta:hover {
+  opacity: 0.7;
+}
+
+/* === HEADER FLEX LAYOUT === */
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem; /* space between title, nav, switcher */
+}
+
+/* Position language switcher nicely beside nav */
+.header-lang-switcher {
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+/* Match menu styling: Josefin Sans, uppercase, blue */
+.header-lang-switcher a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #372DBF !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-left: 0.75rem;
+}
+
+.header-lang-switcher a:hover {
+  opacity: 0.8;
+}
+
+/* Mobile adjustments: stack under the nav */
+@media (max-width: 700px) {
+  .header-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-lang-switcher {
+    order: 3; /* ensure it drops below the nav */
+    margin-top: 0.5rem;
   }
 }
