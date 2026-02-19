@@ -35,4 +35,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['Publications', 'Events', 'News']
+header_page_refs: ['About', 'Publications', 'Events', 'News']
