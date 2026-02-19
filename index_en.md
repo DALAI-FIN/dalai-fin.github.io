@@ -94,7 +94,7 @@ permalink: /index.html
       and impact, striving to find concrete solutions to complex challenges. SRC operates under 
       the Research Council of Finland. 
       <br><br><a class="page-link" href="https://research.fi/en/results/funding/84359" target="_blank" rel="noopener">
-        Read the funding decision (research.fi) →
+        Read the funding decision (research.fi) ↗
       </a>
     </p>
   </div>

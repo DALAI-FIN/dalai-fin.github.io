@@ -3,6 +3,8 @@
 
 @import 'jekyll-theme-cayman-blog';
 
+
+
 h1 {
     font-family: "Josefin Sans", sans-serif;
     color: #372DBF;
@@ -20,11 +22,19 @@ h3 {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Nunito Sans", "Roboto", sans-serif;
     color: #372DBF;
 }
 .page-header {
     background-image: linear-gradient(75deg, #ADE0D0, #372DBF, #ADE0D0);
+}
+
+.site-title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #372DBF !important;
+    letter-spacing: 0.7px;
+    font-weight: 500;
 }
 
 .page-header>h1,
@@ -36,6 +46,85 @@ body {
 
 .page-header>h1 {
     text-transform: uppercase;
+}
+
+/* Make header layout a flex row: title on left, nav+switcher on right */
+.site-header .wrapper.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* Group nav + language switcher on the right */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-left: auto; /* pushes this group to the right */
+}
+
+/* Override Cayman-style float on nav if present */
+.site-nav {
+  float: none !important;
+}
+
+.header-lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #5557FF ;
+  letter-spacing: 0.7px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+/* Globe icon alignment */
+.header-lang-switcher .lang-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  stroke: #5557FF  !important;
+  fill: none !important;
+
+}
+
+/* Links in the language switcher:
+   keep same typography as your menu, no extra padding */
+.header-lang-switcher a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #5557FF  !important;
+  letter-spacing: 0.7px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 0.35rem;
+  padding: 0; 
+  text-decoration: none;
+}
+
+.header-lang-switcher a:hover {
+  opacity: 0.75;
+}
+
+/* Mobile: allow wrapping and center alignment */
+@media (max-width: 700px) {
+  .site-header .wrapper.header-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header-lang-switcher {
+    margin-top: 0.3rem;
+  }
 }
 
 /* MENU LINKS */
@@ -91,9 +180,24 @@ header nav a {
 }
 
 /* Consortium logos */
+.footer-center-wrapper {
+  max-width: 900px;             
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  padding-top: 1.5rem;
+}
+
 .footer-logos img {
-  width: 38px;
-  height: 38px;
+  width: 138px;
+  height: 138px;
   object-fit: contain;
   margin-right: 0.5rem;
   filter: grayscale(90%) brightness(0.9);
@@ -132,6 +236,13 @@ header nav a {
   text-transform: uppercase;
   color: #5557FF !important;
   font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.site-footer h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #372DBF !important;
+  font-weight: 400;
   letter-spacing: 0.7px;
 }
 
@@ -373,7 +484,7 @@ header nav a {
 
 /* Excerpt */
 .post-card-excerpt {
-  color: #444;
+  color: #372DBF;
   line-height: 1.5;
   margin: 0.3rem 0 0.5rem;
 }
@@ -421,26 +532,6 @@ header nav a {
   gap: 1.5rem; /* space between title, nav, switcher */
 }
 
-/* Position language switcher nicely beside nav */
-.header-lang-switcher {
-  margin-left: 1rem;
-  white-space: nowrap;
-}
-
-/* Match menu styling: Josefin Sans, uppercase, blue */
-.header-lang-switcher a {
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
-  color: #372DBF !important;
-  font-size: 0.95rem;
-  font-weight: 500;
-  margin-left: 0.75rem;
-}
-
-.header-lang-switcher a:hover {
-  opacity: 0.8;
-}
 
 /* Mobile adjustments: stack under the nav */
 @media (max-width: 700px) {
@@ -454,4 +545,61 @@ header nav a {
     order: 3; /* ensure it drops below the nav */
     margin-top: 0.5rem;
   }
+}
+
+.about-hero {
+  margin-bottom: 3rem;
+}
+
+/* About page */
+.about-hero h1 {
+  font-size: 2.1rem;
+  color: #372DBF;
+  margin-bottom: 1rem;
+}
+
+.about-hero .lead {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero-list {
+  margin-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.wp-section h2 {
+  color: #372DBF;
+  margin-top: 2.5rem;
+}
+
+.wp-members li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* WP section header colors */
+.wp-section h2,
+.wp-section h3 {
+  color: #639384;
+}
+
+.wp-section a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #5557FF !important;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  text-decoration: underline;
+}
+
+.wp-members {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.wp-members li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
