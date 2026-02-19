@@ -38,7 +38,7 @@
     {% include social-metatags.html %}
     {% endif %}
     
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
     
     {% if site.plugins contains "jekyll-feed" %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.data.l10n.title | escape }}" href="{{ "/feed.xml" | absolute_url }}">
@@ -52,7 +52,7 @@
         <link rel="alternate" media="handheld" href=""> -->
         
         
-        <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | absolute_url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     </head>
     <body>
         
@@ -124,11 +124,10 @@
     <!-- Right column -->
     <div class="footer-right">
       <p class="footer-contact">
-        <strong>Contact us</strong><br>
-        Interaction lead<br>
-        Consortium lead<br>
-        Read more about the project<br>
-        Optional line: Project / institution info
+        <h1>Contact us</h1>
+        <a class = "footer-link" href="mailto:soila.kuuluvainen@helsinki.fi">Soila Kuuluvainen, Interaction lead</a><br>
+        <a class = "footer-link" href="mailto:roman.yangarber@helsinki.fi">Roman Yangarber, Consortium lead</a><br>
+        <a class = "footer-link" href="/about.html">About DALAI-FIN →</a><br>
       </p>
 
       <!-- LinkedIn icon -->
