@@ -90,9 +90,7 @@ permalink: /index.html
     <h3>Funded by SRC</h3>
     <p>
       Funded by the Strategic Research Council Finland (SRC), DALAI-FIN is a multidisciplinary
-      research project. The SRC funds high-quality scientific research of major societal relevance 
-      and impact, striving to find concrete solutions to complex challenges. SRC operates under 
-      the Research Council of Finland. 
+      research project belonging to the SKILLS programme. The SRC funds high-quality scientific research of major societal relevance and impact, striving to find concrete solutions to complex challenges. SRC operates under the Research Council of Finland. 
       <br><br><a class="page-link" href="https://research.fi/en/results/funding/84359" target="_blank" rel="noopener">
         Read the funding decision (research.fi) ↗
       </a>
@@ -100,7 +98,9 @@ permalink: /index.html
   </div>
 
   <div class="background-logo">
-    <img src="/assets/images/stn_bg_banner_0.png" alt="SRC Logo">
+    <img src="/assets/images/stn_bg_banner_0.png" alt="SRC Logo"><br><br>
+    <img src="/assets/images/logo_skills_SKILLS logo black.png" alt="SKILLS program logo">
+    
   </div>
 
 </section>
