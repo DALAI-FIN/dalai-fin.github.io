@@ -4,9 +4,8 @@ title: "Meistä"
 tagline: "Tietoa DALAI-FIN-projektista"
 lang: fi
 permalink: /about.html
-handle: about
 ref: about
-------
+---
 
 # We develop research‑backed tools to take your language skills to the next level
 
