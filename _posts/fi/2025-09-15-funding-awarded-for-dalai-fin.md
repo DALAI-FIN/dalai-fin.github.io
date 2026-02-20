@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: en
+lang: fi
 handle: news/2025/09/15/funding-awarded-for-dalai-fin
 title: Rahoitus DALAI-FIN-projektille SKILLS-ohjelmasta
 tagline: 
