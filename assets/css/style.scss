@@ -188,16 +188,18 @@ header nav a {
 
 .footer-logos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
   padding-top: 1.5rem;
+
 }
 
 .footer-logos img {
   width: 138px;
-  height: 138px;
+  height: auto;
+  flex-shrink: 1;
   object-fit: contain;
   margin-right: 0.5rem;
   filter: grayscale(90%) brightness(0.9);
@@ -247,17 +249,22 @@ header nav a {
 }
 
 /* Mobile responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .footer-container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   .footer-left, .footer-right {
     text-align: center;
+    width: 100%;
+    max-width: 500 px;
   }
   .footer-logos img {
     margin-right: 0.3rem;
     margin-left: 0.3rem;
+    max-width: 120 px;
+    max-height: 50px;
   }
 }
 
