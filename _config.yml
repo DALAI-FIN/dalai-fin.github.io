@@ -18,7 +18,7 @@ google_analytics:
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 post:
   date_format: "%b %-d, %Y"
-
+future: true # Allow to render future posts
 theme: # leave it empty
 
 # social
