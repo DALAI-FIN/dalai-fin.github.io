@@ -9,15 +9,14 @@ ref: about
 
 # We develop research‑backed tools to take your language skills to the next level
 
-DALAI‑FIN is a research project aiming to revolutionize adult second‑language teaching and learning 
-for migrants who already have basic Finnish or Swedish skills, but require greater proficiency:
+The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning 
+for adult immigrants.  The target audience is learners who already have basic Finnish or Swedish skills, and require greater proficiency to:
 
-- to become employed,
-- to support fluent communication at work, or
-- to participate fully in the social, cultural, and political life in Finland.
+- gain employment,
+- support fluent communication at work, or
+- participate fully in the social, cultural, and political life in Finland.
 
-Over the course of this project, we are developing a state‑of‑the‑art, AI‑boosted, research‑backed 
-language‑learning ecosystem together with Finnish and Swedish learners and teachers.
+DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning ecosystem, in collaboration together with Finnish and Swedish learners and teachers.
 
 ![](/assets/images/dalai_ecosystem_nocentre_white.png)
 
@@ -26,9 +25,9 @@ language‑learning ecosystem together with Finnish and Swedish learners and tea
 # Work Packages
 {: .wp-section }
 
-## WP1: AI Assistant Development
+## WP1: AI Assistant and Ecosystem
 
-This work package is responsible for the overall technical development and integration of the AI ecosystem.
+Overall technical development and integration of the AI ecosystem.
 
 ### Members
 <ul class="wp-members">
@@ -44,7 +43,7 @@ This work package is responsible for the overall technical development and integ
 
 ## WP2: Pedagogical Basis of AI‑Assisted Learning
 
-This work package develops AI‑based, pedagogically motivated exercises and evaluates automated feedback in collaboration with language teachers.
+Design and evaluate AI‑based, pedagogically motivated exercises and automated feedback.
 
 ### Members
 <ul class="wp-members">
@@ -56,7 +55,7 @@ This work package develops AI‑based, pedagogically motivated exercises and eva
   </li>
   <li>
     <a href="https://www.jyu.fi/en/people/dmitri-leontjev">Dmitri Leontjev ↗</a>
-    <strong>Co-PI, WP2</strong><br>
+    <strong>Co-PI</strong><br>
     <strong>Senior researcher, Language assessment</strong><br>
     Faculty of Humanities and Social Sciences, University of Jyväskylä<br>
   </li>
@@ -66,7 +65,7 @@ This work package develops AI‑based, pedagogically motivated exercises and eva
 
 ## WP3: Speech Technology – Comprehension & Production Skills
 
-This work package develops and assesses speech‑technology tools to automatically evaluate speaking proficiency and support listening and speaking exercises.
+Develop and assess speech‑technology to evaluate speaking proficiency, and support listening and speaking exercises.
 
 ### Members
 <ul class="wp-members">
@@ -78,7 +77,7 @@ This work package develops and assesses speech‑technology tools to automatical
   </li>
   <li>
     <a href="https://research.aalto.fi/en/persons/mikko-kurimo">Mikko Kurimo ↗</a>
-    <strong>Co-PI, WP3</strong><br>
+    <strong>Co-PI</strong><br>
     <strong>Professor, Speech recognition</strong><br>
     Department of Information and Communications Engineering, Aalto University<br>
   </li>
@@ -88,7 +87,7 @@ This work package develops and assesses speech‑technology tools to automatical
 
 ## WP4: Large Language Models (LLMs) in Teaching L2 & Learner Analytics
 
-This work package develops personalised language‑learning content using large language models (LLMs) and evaluates an AI‑assisted intervention integrated into adult education.
+Develop personalised language‑learning content, using large language models (LLMs), and evaluate AI‑assisted intervention.
 
 ### Members
 <ul class="wp-members">
@@ -98,12 +97,12 @@ This work package develops personalised language‑learning content using large 
   Department of Computing, University of Turku<br>
   </li>
   <li><a href="https://www.utu.fi/en/people/jenna-kanerva">Jenna Kanerva ↗</a>
-  <strong>Collaborator, WP4</strong><br>
+  <strong>Collaborator</strong><br>
   <strong>University lecturer, Data analytics</strong><br>
   Department of Computing, University of Turku<br>
   </li>
   <li><a href="https://www.utu.fi/en/people/tapio-nojonen">Tapio Nojonen ↗</a>
-  <strong>Collaborator, WP4</strong><br>
+  <strong>Collaborator</strong><br>
   <strong>Doctoral researcher, Data analytics</strong><br>
   Department of Computing, University of Turku<br>
   </li>
@@ -113,7 +112,7 @@ This work package develops personalised language‑learning content using large 
 
 ## WP5: Cognitive Basis for L2 Learning in Adulthood
 
-This work package investigates the cognitive mechanisms of adult language learning through experimental studies.  
+Investigate the cognitive mechanisms of adult language learning through experimental studies.  
 The findings contribute to the development of personalised AI‑based applications, including training for prosodic and phonological skills in Finnish.
 
 ### Members
@@ -134,7 +133,7 @@ The findings contribute to the development of personalised AI‑based applicatio
 
   <li>
     <a href="https://www.helsinki.fi/en/about-us/people/people-finder/saara-kaskivuo-9371640">Saara Kaskivuo ↗</a>
-    <strong>Collaborator, WP5</strong><br>
+    <strong>Collaborator</strong><br>
     <strong>Doctoral Researcher, Cognitive Science</strong><br>
     Department of Digital Humanities, University of Helsinki<br>
   </li>
