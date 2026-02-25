@@ -9,9 +9,8 @@ permalink: /index.html
 <section class="hero-intro">
   <h1>Science-backed tools to boost your language skills</h1>
   <p class="lead">
-    DALAI-FIN is a research project aiming to revolutionize Finnish learning for migrants.
-    Over the course of this project, we are building a state-of-the-art, AI-boosted, 
-    research-backed language learning ecosystem together with Finnish and Swedish learners and teachers.
+    The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning for adult immigrants.  
+    DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning ecosystem, in collaboration with Finnish and Swedish learners and teachers.
   </p>
 </section>
 
@@ -26,10 +25,9 @@ permalink: /index.html
     <div class="feature-text">
       <h3>Language gives you a voice</h3>
       <p>
-        Mastering a language is more than learning words: it’s gaining the ability to participate,
-        connect, and belong. The tools developed at DALAI-FIN help you strengthen your Finnish skills
-        through personalized, AI-powered learning paths, so you can engage confidently in everyday life,
-        work, and civic conversations.
+        Mastering a language is gaining the ability to participate, connect, and belong. 
+        The tools we develop at DALAI-FIN help L2-learners strengthen their language skills
+        through personalized, AI-powered learning paths, so they can engage confidently in work, everyday life, and civic conversations.
       </p>
     </div>
   </div>
@@ -42,8 +40,7 @@ permalink: /index.html
     <div class="feature-text">
       <h3>Multimodal learning</h3>
       <p>
-        Our ecosystem supports both written and spoken language training, enabling learners to develop
-        comprehensive, real-world communication skills through AI-assisted practice.
+        Our ecosystem supports written and spoken language training, enabling learners to develop real-world communication skills through AI-assisted practice.
       </p>
     </div>
   </div>
@@ -56,8 +53,8 @@ permalink: /index.html
     <div class="feature-text">
       <h3>Learning on your own terms</h3>
       <p>
-        Create unlimited, authentic exercises based on your own materials and interests —
-        and practice anytime, anywhere — with accurate, personalized feedback that adapts to your needs.
+        Create unlimited exercises based on your authentic materials, interests and needs —
+        and practice any time, anywhere — with accurate, personalized feedback that adapts to your needs.
       </p>
     </div>
   </div>
@@ -70,9 +67,9 @@ permalink: /index.html
     <div class="feature-text">
       <h3>Supporting teachers</h3>
       <p>
-        Our tools help teachers supplement course materials, track learners’ progress,
+        Our tools help teachers supplement course materials, track learner progress,
         and focus on what matters most: face-to-face teaching.
-        We don’t replace teachers — we support them.
+        The tools do not aim to replace teachers — they aim to support them.
       </p>
     </div>
   </div>
@@ -83,8 +80,10 @@ permalink: /index.html
   <div class="background-text">
     <h3>Funded by SRC</h3>
     <p>
-      Funded by the Strategic Research Council Finland (SRC), DALAI-FIN is a multidisciplinary
-      research project belonging to the SKILLS programme. The SRC funds high-quality scientific research of major societal relevance and impact, striving to find concrete solutions to complex challenges. SRC operates under the Research Council of Finland. 
+      Funded by Strategic Research Council Finland (SRC), DALAI-FIN is a multidisciplinary
+      research project belonging to the SKILLS Research Programme.  
+      The SRC funds scientific research of major societal relevance and impact, striving for concrete solutions to complex challenges.  
+      SRC operates under the Research Council of Finland. 
       <br><br><a class="page-link" href="https://research.fi/en/results/funding/84359" target="_blank" rel="noopener">
         Read the funding decision (research.fi) ↗
       </a>
