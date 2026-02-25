@@ -9,14 +9,14 @@ ref: about
 
 # We develop research‑backed tools to take your language skills to the next level
 
-The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning 
-for adult immigrants.  The target audience is learners who already have basic Finnish or Swedish skills, and require greater proficiency to:
+The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning for adult immigrants.  
+The target audience is learners who already have basic Finnish or Swedish skills, and require greater proficiency to:
 
 - gain employment,
 - support fluent communication at work, or
 - participate fully in the social, cultural, and political life in Finland.
 
-DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning ecosystem, in collaboration together with Finnish and Swedish learners and teachers.
+DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning ecosystem, in collaboration with Finnish and Swedish learners and teachers.
 
 ![](/assets/images/dalai_ecosystem_nocentre_white.png)
 
