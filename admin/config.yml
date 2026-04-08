@@ -1,0 +1,55 @@
+backend:
+  name: github
+  repo: dalai-fin/dalai-fin.github.io
+  branch: master
+  auth_type: pkce
+  app_id: Ov23lipGQC6WQppif45i
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+
+  - name: "posts_en"
+    label: "News & Events (English)"
+    folder: "_posts/en"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Category", name: "categories", widget: "select", options: ["news", "event"] }
+      - { label: "Header Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "posts_fi"
+    label: "News & Events (Finnish)"
+    folder: "_posts/fi"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Otsikko", name: "title", widget: "string" }
+      - { label: "Päivämäärä", name: "date", widget: "datetime" }
+      - { label: "Kategoria", name: "categories", widget: "select", options: ["news", "event"] }
+      - { label: "Otsikkokuva", name: "image", widget: "image", required: false }
+      - { label: "Sisältö", name: "body", widget: "markdown" }
+
+  - name: "pages_en"
+    label: "Pages (English)"
+    files:
+      - label: "About"
+        name: "about"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages_fi"
+    label: "Pages (Finnish)"
+    files:
+      - label: "Tietoa meistä"
+        name: "about_fi"
+        file: "fi/about.md"
+        fields:
+          - { label: "Otsikko", name: "title", widget: "string" }
+          - { label: "Sisältö", name: "body", widget: "markdown" }
