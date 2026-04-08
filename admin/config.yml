@@ -18,6 +18,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Language", name: "lang", widget: "hidden", default: "en" }
       - { label: "Category", name: "categories", widget: "select", options: ["news", "event"] }
       - { label: "Header Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -30,6 +32,8 @@ collections:
     fields:
       - { label: "Otsikko", name: "title", widget: "string" }
       - { label: "Päivämäärä", name: "date", widget: "datetime" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Language", name: "lang", widget: "hidden", default: "fi" }
       - { label: "Kategoria", name: "categories", widget: "select", options: ["news", "event"] }
       - { label: "Otsikkokuva", name: "image", widget: "image", required: false }
       - { label: "Sisältö", name: "body", widget: "markdown" }
@@ -38,8 +42,26 @@ collections:
     label: "Pages (English)"
     files:
       - label: "About"
-        name: "about"
-        file: "about.md"
+        name: "about_en"
+        file: "about_en.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Events"
+        name: "events_en"
+        file: "events_en.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "News"
+        name: "news_en"
+        file: "news_en.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Publications"
+        name: "publications_en"
+        file: "publications_en.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -49,7 +71,25 @@ collections:
     files:
       - label: "Tietoa meistä"
         name: "about_fi"
-        file: "fi/about.md"
+        file: "about_fi.md"
+        fields:
+          - { label: "Otsikko", name: "title", widget: "string" }
+          - { label: "Sisältö", name: "body", widget: "markdown" }
+      - label: "Tapahtumat"
+        name: "events_fi"
+        file: "events_fi.md"
+        fields:
+          - { label: "Otsikko", name: "title", widget: "string" }
+          - { label: "Sisältö", name: "body", widget: "markdown" }
+      - label: "Uutiset"
+        name: "news_fi"
+        file: "news_fi.md"
+        fields:
+          - { label: "Otsikko", name: "title", widget: "string" }
+          - { label: "Sisältö", name: "body", widget: "markdown" }
+      - label: "Julkaisut"
+        name: "publications_fi"
+        file: "publications_fi.md"
         fields:
           - { label: "Otsikko", name: "title", widget: "string" }
           - { label: "Sisältö", name: "body", widget: "markdown" }
