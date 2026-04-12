@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Ajankohtaista"
 tagline: "Viimeisimmät uutiset DALAI-FIN-projektista"
 lang: fi
