@@ -13,12 +13,12 @@
                 {% endif %}
             {% else %}
                 {% if lang == site.default_lang %}
-                    {% assign url = site.url | append: '/' | append: page.handle | append: '.html' %}
-                {% else %}
-                    {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.handle | append: '.html' %}
-                {% endif %}
-                <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
+                    {% assign url = site.url | append: '/' | append: page.ref | append: '.html' %}
+            {% else %}
+                    {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.ref | append: '.html' %}
             {% endif %}
+            <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
+        {% endif %}
             
         {% endif %}
     {% endfor %}

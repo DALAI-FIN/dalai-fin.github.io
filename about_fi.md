@@ -1,143 +1,140 @@
 ---
 layout: page
-title: "Meistä"
+title: "Tietoa meistä"
 tagline: "Tietoa DALAI-FIN-projektista"
 lang: fi
 permalink: /about.html
 ref: about
+handle: about_fi
 ---
 
-# We develop research‑backed tools to take your language skills to the next level
+# Kehitämme tutkimukseen pohjautuvia työkaluja kielitaidon tueksi
 
-DALAI‑FIN is a research project aiming to revolutionize adult second‑language teaching and learning 
-for migrants who already have basic Finnish or Swedish skills, but require greater proficiency:
+DALAI‑FIN-tutkimushankkeessa pyrimme kehittämään uusia, mullistavia työkaluja suomen ja ruotsin kielen opetukseen ja oppimiseen.
+Kohderyhmänä ovat aikuiset maahanmuuttajataustaiset oppijat, joilla on jo perustason suomen tai ruotsin kielen taito, mutta jotka tarvitsevat syvempää osaamista:
 
-- to become employed,
-- to support fluent communication at work, or
-- to participate fully in the social, cultural, and political life in Finland.
+- työllistyäkseen,
+- tukeakseen sujuvaa viestintää työelämässä, tai
+- osallistuakseen täysipainoisesti Suomen sosiaaliseen, kulttuuriseen ja poliittiseen elämään.
 
-Over the course of this project, we are developing a state‑of‑the‑art, AI‑boosted, research‑backed 
-language‑learning ecosystem together with Finnish and Swedish learners and teachers.
+DALAI-FIN kehittää huippuluokan tekoälyavusteista kielen oppimisen ekosysteemiä yhteistyössä suomen ja ruotsin oppijoiden ja opettajien kanssa.
 
 ![](/assets/images/dalai_ecosystem_nocentre_white.png)
 
 ---
 <div class="wp-section" markdown="1">
-# Work Packages
+# Työpaketit
 {: .wp-section }
 
-## WP1: AI Assistant Development
+## Paketti 1: Tekoälyavustaja ja ekosysteemi
 
-This work package is responsible for the overall technical development and integration of the AI ecosystem.
+Tekoälyekosysteemin kokonaisvaltainen tekninen kehitys ja integrointi.
 
-### Members
+### Jäsenet
 <ul class="wp-members">
   <li>
-    <a href="https://www.helsinki.fi/en/about-us/people/people-finder/roman-yangarber-9079724">Roman Yangarber ↗</a>
-    <strong>Consortium leader</strong><br>
-    <strong>Professor, Language technology</strong><br>
-    Department of Digital Humanities, University of Helsinki<br>
+    <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/roman-yangarber-9079724">Roman Yangarber ↗</a>
+    <strong>Konsortion johtaja</strong><br>
+    <strong>Professori, kieliteknologia</strong><br>
+    Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
   </li>
 </ul>
 
 ---
 
-## WP2: Pedagogical Basis of AI‑Assisted Learning
+## Paketti 2: Tekoälyavusteisen oppimisen pedagoginen perusta
 
-This work package develops AI‑based, pedagogically motivated exercises and evaluates automated feedback in collaboration with language teachers.
+Tekoälypohjaisten, pedagogisesti perusteltujen harjoitusten suunnittelu ja arviointi sekä automaattisen palautteen kehittäminen.
 
-### Members
+### Jäsenet
 <ul class="wp-members">
   <li>
     <a href="https://www.jyu.fi/en/people/ari-huhta">Ari Huhta ↗</a>
-    <strong>Principal investigator, WP2</strong><br>
-    <strong>Professor, Language assessment</strong><br>
-    Faculty of Humanities and Social Sciences, University of Jyväskylä<br>
+    <strong>Vastuullinen tutkija (paketti 2)</strong><br>
+    <strong>Professori, kielenarviointi</strong><br>
+    Humanistis-yhteiskuntatieteellinen tiedekunta, Jyväskylän yliopisto<br>
   </li>
   <li>
     <a href="https://www.jyu.fi/en/people/dmitri-leontjev">Dmitri Leontjev ↗</a>
-    <strong>Co-PI, WP2</strong><br>
-    <strong>Senior researcher, Language assessment</strong><br>
-    Faculty of Humanities and Social Sciences, University of Jyväskylä<br>
+    <strong>Vastuullinen tutkija (yhteistyössä)</strong><br>
+    <strong>Yliopistotutkija, kielenarviointi</strong><br>
+    Humanistis-yhteiskuntatieteellinen tiedekunta, Jyväskylän yliopisto<br>
   </li>
 </ul>
 
 ---
 
-## WP3: Speech Technology – Comprehension & Production Skills
+## Paketti 3: Puheentunnistus: ymmärtämis- ja tuottamistaidot
 
-This work package develops and assesses speech‑technology tools to automatically evaluate speaking proficiency and support listening and speaking exercises.
+Puheentunnistusteknologian kehittäminen ja arviointi puhumisen taitotason mittaamiseksi sekä kuullun ymmärtämisen ja puhumisen harjoittelun tukemiseksi.
 
-### Members
+### Jäsenet
 <ul class="wp-members">
   <li>
-    <a href="https://research.aalto.fi/en/persons/lauri-juvela">Lauri Juvela ↗</a>
-    <strong>Principal investigator, WP3</strong><br>
-    <strong>Assistant professor, Speech synthesis</strong><br>
-    Department of Information and Communications Engineering, Aalto University<br>
+    <a href="https://www.aalto.fi/fi/ihmiset/lauri-juvela">Lauri Juvela ↗</a>
+    <strong>Vastuullinen tutkija (paketti 3)</strong><br>
+    <strong>Apulaisprofessori, puhesynteesi</strong><br>
+    Informaatio- ja tietoliikennetekniikan laitos, Aalto-yliopisto<br>
   </li>
   <li>
-    <a href="https://research.aalto.fi/en/persons/mikko-kurimo">Mikko Kurimo ↗</a>
-    <strong>Co-PI, WP3</strong><br>
-    <strong>Professor, Speech recognition</strong><br>
-    Department of Information and Communications Engineering, Aalto University<br>
+    <a href="https://www.aalto.fi/fi/ihmiset/mikko-kurimo">Mikko Kurimo ↗</a>
+    <strong>Vastuullinen tutkija (yhteistyössä)</strong><br>
+    <strong>Professori, puheentunnistus</strong><br>
+    Informaatio- ja tietoliikennetekniikan laitos, Aalto-yliopisto<br>
   </li>
 </ul>
 
 ---
 
-## WP4: Large Language Models (LLMs) in Teaching L2 & Learner Analytics
+## Paketti 4: Suuret kielimallit (LLM) toisen kielen opetuksessa ja oppija-analytiikassa
 
-This work package develops personalised language‑learning content using large language models (LLMs) and evaluates an AI‑assisted intervention integrated into adult education.
+Räätälöidyn kielenoppimissisällön kehittäminen suurten kielimallien avulla sekä tekoälyavusteisen intervention arviointi.
 
-### Members
+### Jäsenet
 <ul class="wp-members">
   <li><a href="https://www.utu.fi/en/people/filip-ginter">Filip Ginter ↗</a>
-  <strong>Principal investigator, WP4</strong><br>
-  <strong>Professor, Data analytics</strong><br>
-  Department of Computing, University of Turku<br>
+  <strong>Vastuullinen tutkija, paketti 4</strong><br>
+  <strong>Professori, data-analytiikka</strong><br>
+  Tietojenkäsittelytieteen laitos, Turun yliopisto<br>
   </li>
   <li><a href="https://www.utu.fi/en/people/jenna-kanerva">Jenna Kanerva ↗</a>
-  <strong>Collaborator, WP4</strong><br>
-  <strong>University lecturer, Data analytics</strong><br>
-  Department of Computing, University of Turku<br>
+  <strong>Tutkija</strong><br>
+  <strong>Yliopistonlehtori, data-analytiikka</strong><br>
+  Tietojenkäsittelytieteen laitos, Turun yliopisto<br>
   </li>
   <li><a href="https://www.utu.fi/en/people/tapio-nojonen">Tapio Nojonen ↗</a>
-  <strong>Collaborator, WP4</strong><br>
-  <strong>Doctoral researcher, Data analytics</strong><br>
-  Department of Computing, University of Turku<br>
+  <strong>Tutkija</strong><br>
+  <strong>Väitöskirjatutkija, data-analytiikka</strong><br>
+  Tietojenkäsittelytieteen laitos, Turun yliopisto<br>
   </li>
 </ul>
 
 ---
 
-## WP5: Cognitive Basis for L2 Learning in Adulthood
+## Paketti 5: Aikuisiän toisen kielen oppimisen kognitiivinen perusta
 
-This work package investigates the cognitive mechanisms of adult language learning through experimental studies.  
-The findings contribute to the development of personalised AI‑based applications, including training for prosodic and phonological skills in Finnish.
+Aikuisten kielenoppimisen kognitiivisten mekanismien tutkiminen kokeellisten menetelmien avulla.
+Tutkimuksen tuloksia voidaan hyödyntää räätälöityjen ratkaisujen kehittämisessä esimerkiksi suomen kielen prosodian ja fonologian harjoitteluun liittyen.
 
-### Members
+### Jäsenet
 <ul class="wp-members">
   <li>
-    <a href="https://www.helsinki.fi/en/about-us/people/people-finder/riikka-mottonen-9420645">Riikka Möttönen ↗</a>
-    <strong>Principal investigator, WP5</strong><br>
-    <strong>Professor, Cognitive Science</strong><br>
-    Department of Digital Humanities, University of Helsinki<br>
+    <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/riikka-mottonen-9420645">Riikka Möttönen ↗</a>
+    <strong>Vastuullinen tutkija, paketti 5</strong><br>
+    <strong>Professori, kognitiotiede</strong><br>
+    Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
   </li>
-
   <li>
-    <a href="https://www.helsinki.fi/en/about-us/people/people-finder/soila%20maria-kuuluvainen-9072736">Soila Kuuluvainen ↗</a>
-    <strong>Consortium interaction lead</strong><br>
-    <strong>Postdoctoral researcher, Cognitive Science</strong><br>
-    Department of Digital Humanities, University of Helsinki<br>
+    <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/soila-maria-kuuluvainen-9072736">Soila Kuuluvainen ↗</a>
+    <strong>Konsortion vuorovaikutusvastaava</strong><br>
+    <strong>Tutkijatohtori, kognitiotiede</strong><br>
+    Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
   </li>
-
   <li>
-    <a href="https://www.helsinki.fi/en/about-us/people/people-finder/saara-kaskivuo-9371640">Saara Kaskivuo ↗</a>
-    <strong>Collaborator, WP5</strong><br>
-    <strong>Doctoral Researcher, Cognitive Science</strong><br>
-    Department of Digital Humanities, University of Helsinki<br>
+    <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/saara-kaskivuo-9371640">Saara Kaskivuo ↗</a>
+    <strong>Tutkija</strong><br>
+    <strong>Väitöskirjatutkija, kognitiotiede</strong><br>
+    Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
   </li>
-
 </ul>
 </div>

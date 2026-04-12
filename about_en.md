@@ -5,6 +5,7 @@ tagline: "Get to know DALAI‑FIN"
 lang: en
 permalink: /about.html
 ref: about
+handle: about_en
 ---
 
 # We develop research‑backed tools to take your language skills to the next level

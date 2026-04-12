@@ -12,6 +12,7 @@ permalink: /index.html
     DALAI-FIN on tutkimushanke, jonka tavoitteena on mullistaa suomen oppiminen maahanmuuttajille.
     Hankkeen aikana rakennamme huippuluokan tekoälytehostettua, tutkimukseen pohjautuvaa kielen oppimisen kokonaisuutta yhdessä suomen ja ruotsin oppijoiden ja opettajien kanssa.
   </p>
+  <a href="/fi/contact.html" class="cta-button">Ota yhteyttä →</a>
 </section>
 
 
@@ -70,7 +71,6 @@ permalink: /index.html
       </p>
     </div>
   </div>
-  <a href="/fi/contact.html" class="cta-button">Ota yhteyttä →</a>
 </section>
 
 <section class="background-box">

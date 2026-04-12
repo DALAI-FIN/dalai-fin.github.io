@@ -4,7 +4,8 @@ title: "Contact"
 tagline: "Get in touch with the DALAI-FIN team"
 lang: en
 permalink: /contact.html
-ref: Contact
+ref: contact
+handle: contact_en
 ---
 
 ## Get in touch
