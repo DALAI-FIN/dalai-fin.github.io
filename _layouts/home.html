@@ -42,8 +42,9 @@ layout: default
 
       <!-- Category pill -->
       {% if post.categories %}
+      {% assign category = post.categories | first %}
       <span class="post-card-category">
-        {{ site.data.l10n[post.categories | first] | default: post.categories | first }}
+        {{ site.data.l10n[category] | default: category }}
       </span>
       {% endif %}
 

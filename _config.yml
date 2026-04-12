@@ -24,8 +24,6 @@ theme: # leave it empty
 # social
 author: DALAI-FIN
 image: /assets/thumbnail-jumbo.png
-twitter:
-  username: lorepirri
 
 plugins:
   - jekyll-target-blank
