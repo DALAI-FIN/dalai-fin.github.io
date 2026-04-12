@@ -3,9 +3,9 @@ layout: page
 title: "Contact"
 tagline: "Get in touch with the DALAI-FIN team"
 lang: en
-permalink: /contact.html
 ref: contact
 handle: contact_en
+permalink: /contact.html
 ---
 
 ## Get in touch

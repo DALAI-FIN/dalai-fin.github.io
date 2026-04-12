@@ -3,9 +3,9 @@ layout: page
 title: "Ota yhteyttä"
 tagline: "Ota yhteyttä meihin"
 lang: fi
-permalink: /contact.html
 ref: contact
 handle: contact_fi
+permalink: /contact.html
 ---
 
 ## Ota yhteyttä
