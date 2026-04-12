@@ -70,6 +70,7 @@ permalink: /index.html
       </p>
     </div>
   </div>
+  <a href="/fi/contact.html" class="cta-button">Ota yhteyttä →</a>
 </section>
 
 <section class="background-box">
@@ -80,8 +81,8 @@ permalink: /index.html
       Strategisen tutkimuksen neuvoston (STN) rahoittama DALAI‑FIN on monitieteinen
       tutkimushanke, joka kuuluu SKILLS-ohjelmaan. STN rahoittaa korkealaatuista tieteellistä tutkimusta,
       jolla on merkittävää yhteiskunnallista vaikuttavuutta ja jonka tavoitteena on löytää konkreettisia ratkaisuja monimutkaisiin haasteisiin. STN toimii Suomen Akatemian yhteydessä.
-      <br><br><a class="page-link" href="https://research.fi/fi/results/funding/84359" target="_blank" rel="noopener">
-        Lue rahoituspäätös (research.fi) ↗
+      <br><br><a class="page-link" href="https://tiedejatutkimus.fi/fi/results/funding/84359" target="_blank" rel="noopener">
+        Lue rahoituspäätös (tiedejatutkimus.fi) ↗
       </a>
     </p>
   </div>

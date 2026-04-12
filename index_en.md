@@ -12,6 +12,7 @@ permalink: /index.html
     The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning for adult immigrants.  
     DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning ecosystem, in collaboration with Finnish and Swedish learners and teachers.
   </p>
+  <a href="/contact.html" class="cta-button">Get in touch →</a>
 </section>
 
 
@@ -97,4 +98,4 @@ permalink: /index.html
   </div>
 
 </section>
-<h1>Latest news</h1>
+<h1>What's new</h1>
