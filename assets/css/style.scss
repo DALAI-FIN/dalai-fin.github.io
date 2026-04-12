@@ -67,6 +67,7 @@ body {
 /* Override Cayman-style float on nav if present */
 .site-nav {
   float: none !important;
+  display: inline-block !important;
 }
 
 .header-lang-switcher {
