@@ -1,5 +1,23 @@
 title: DALAI-FIN
 lang_name: "FI"
-About: Meistä
+About: Tietoa meistä
 Updates: Ajankohtaista
 Contact: Ota yhteyttä
+Publications: Julkaisut
+# Post categories
+read_more: "Lue lisää →"
+news: "Uutinen"
+event: "Tapahtuma"
+# Months
+Jan: Tam
+Feb: Hel
+Mar: Maa
+Apr: Huh
+May: Tou
+Jun: Kes
+Jul: Hei
+Aug: Elo
+Sep: Syy
+Oct: Lok
+Nov: Mar
+Dec: Jou

@@ -43,18 +43,22 @@ layout: default
       <!-- Category pill -->
       {% if post.categories %}
       <span class="post-card-category">
-        {{ post.categories | first }}
+        {{ site.data.l10n[post.categories | first] | default: post.categories | first }}
       </span>
       {% endif %}
 
       <!-- Date -->
       <span class="post-card-date">
-        {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
-        {{ post.date | date: date_format }}
+        {% if site.active_lang == "fi" %}
+          {{ post.date | date: "%-d.%-m.%Y" }}
+        {% else %}
+          {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
+          {{ post.date | date: date_format }}
+        {% endif %}
       </span>
 
       <!-- Read more -->
-      <a href="{{ post.url | relative_url }}" class="post-card-cta">Read more →</a>
+      <a href="{{ post.url | relative_url }}" class="post-card-cta">{{ site.data.l10n.read_more }}</a>
 
     </div>
   </article>
