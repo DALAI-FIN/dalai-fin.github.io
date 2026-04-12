@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tietoa meistä"
+title: "Meistä"
 tagline: "Tietoa DALAI-FIN-projektista"
 lang: fi
 permalink: /about.html
