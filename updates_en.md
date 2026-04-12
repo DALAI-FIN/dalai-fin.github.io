@@ -7,3 +7,5 @@ ref: updates
 handle: updates_en
 permalink: /updates.html
 ---
+
+Browse our [Publications](/publications.html) →
