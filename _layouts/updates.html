@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div>
+  {{ content }}
+  <div>&nbsp;</div>
+<div class="post-list-grid">
+  {% assign posts = site.posts | where: "lang", site.active_lang | sort: 'date' | reverse %}
+  {% for post in posts %}
+  <article class="post-card">
+    {% assign default_image = "/assets/images/dalai_default_post.png" %}
+    {% assign image_url = post.image | default: default_image %}
+    <a class="post-card-image-wrapper" href="{{ post.url | relative_url }}" title="{{ post.title }}">
+      <img
+          src="{{ image_url | relative_url }}"
+          alt="{{ post.title | escape }}"
+          class="post-card-image {% if image_url == default_image %}post-card-image--default{% endif %}">
+    </a>
+    <div class="post-card-content">
+      <h2 class="post-card-title">
+        <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">
+          {{ post.title | escape }}
+        </a>
+      </h2>
+      <p class="post-card-excerpt">
+        {{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}
+      </p>
+      {% if post.categories %}
+      {% assign category = post.categories | first %}
+      <span class="post-card-category">
+        {{ site.data.l10n[category] | default: category }}
+      </span>
+      {% endif %}
+      <span class="post-card-date">
+        {% if site.active_lang == "fi" %}
+          {{ post.date | date: "%-d.%-m.%Y" }}
+        {% else %}
+          {% assign date_format = site.post.date_format | default: "%b %-d, %Y" %}
+          {{ post.date | date: date_format }}
+        {% endif %}
+      </span>
+      <a href="{{ post.url | relative_url }}" class="post-card-cta">{{ site.data.l10n.read_more }}</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+</div>

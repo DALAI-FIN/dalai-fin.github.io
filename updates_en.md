@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: updates
 title: "News & Events"
 tagline: "Latest updates from the DALAI-FIN project"
 lang: en
