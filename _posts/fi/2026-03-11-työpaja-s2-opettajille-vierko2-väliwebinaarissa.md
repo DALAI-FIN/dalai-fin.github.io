@@ -1,10 +1,11 @@
 ---
+title: Työpaja S2-opettajille Vierko2-väliwebinaarissa
+date: 2026-03-11T12:00:00
 layout: post
+categories: event
+image: /assets/images/dalai_abstract_hero.png
 lang: fi
 handle: event/2026/03/11/työpaja-s2-opettajille-vierko2-väliwebinaarissa
-title: Työpaja S2-opettajille Vierko2-väliwebinaarissa
-categories: news
-image: /assets/images/dalai_abstract_hero.png
 ---
 
 ### Prosodian jäljillä -väliwebinaari ja DALAI-FINin työpaja S2-opettajille

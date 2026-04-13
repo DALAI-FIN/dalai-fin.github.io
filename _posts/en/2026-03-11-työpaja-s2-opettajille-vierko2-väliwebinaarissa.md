@@ -1,10 +1,11 @@
 ---
+title: Workshop for Finnish as a second language teachers at Vierko2 webinar
+date: 2026-03-11T12:00:00
 layout: post
+categories: event
+image: /assets/images/dalai_abstract_hero.png
 lang: en
 handle: event/2026/03/11/työpaja-s2-opettajille-vierko2-väliwebinaarissa
-title: Workshop for Finnish as a second language teachers at Vierko2 webinar
-categories: news
-image: /assets/images/dalai_abstract_hero.png
 ---
 
 This event is held in Finnish and in Swedish. See details below:
