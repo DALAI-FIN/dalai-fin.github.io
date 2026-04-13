@@ -21,7 +21,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Date", name: "date", widget: "datetime", i18n: duplicate }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss", format: "YYYY-MM-DDTHH:mm:ss+00:00", i18n: duplicate }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post", i18n: duplicate }
       - { label: "Category", name: "categories", widget: "select", options: ["news", "event"], i18n: duplicate }
       - { label: "Header Image", name: "image", widget: "image", required: false, i18n: duplicate }
