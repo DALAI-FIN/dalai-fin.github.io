@@ -1,4 +1,3 @@
-
 <div class="lang_switcher">
     {% for lang in site.languages %}
         {% assign lang_name = site.data[lang].l10n.lang_name %}
@@ -12,14 +11,21 @@
                     <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
                 {% endif %}
             {% else %}
-        {% if lang == site.default_lang %}
-            {% assign url = site.url | append: '/' | append: page.ref | append: '.html' %}
-        {% else %}
-            {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.ref | append: '.html' %}
-        {% endif %}
-        <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
-    {% endif %}
-                
+                {% if page.layout == 'post' %}
+                    {% if lang == site.default_lang %}
+                        {% assign url = site.url | append: page.url %}
+                    {% else %}
+                        {% assign url = site.url | append: '/' | append: lang | append: page.url %}
+                    {% endif %}
+                {% else %}
+                    {% if lang == site.default_lang %}
+                        {% assign url = site.url | append: '/' | append: page.ref | append: '.html' %}
+                    {% else %}
+                        {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.ref | append: '.html' %}
+                    {% endif %}
+                {% endif %}
+                <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
+            {% endif %}
         {% endif %}
     {% endfor %}
 </div>
