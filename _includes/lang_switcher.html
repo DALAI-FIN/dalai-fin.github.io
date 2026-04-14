@@ -12,14 +12,14 @@
                     <a href="{{ site.url }}/{{ lang }}">{{ lang_name }}</a>
                 {% endif %}
             {% else %}
-                {% if lang == site.default_lang %}
-                    {% assign url = site.url | append: '/' | append: page.ref | append: '.html' %}
-            {% else %}
-                    {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.ref | append: '.html' %}
-            {% endif %}
-            <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
+        {% if lang == site.default_lang %}
+            {% assign url = site.url | append: '/' | append: page.ref | append: '.html' %}
+        {% else %}
+            {% assign url = site.url | append: '/' | append: lang | append: '/' | append: page.ref | append: '.html' %}
         {% endif %}
-            
+        <a {% static_href %} href="{{ url }}" {% endstatic_href %}>{{ lang_name }}</a>
+    {% endif %}
+                
         {% endif %}
     {% endfor %}
 </div>

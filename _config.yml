@@ -11,6 +11,17 @@ default_lang: "en"
 exclude_from_localization: ["assets/css", "assets/image"]
 parallel_localization: true
 
+defaults:
+  - scope:
+      path: "_posts/en"
+      type: "posts"
+    values:
+      lang: en
+  - scope:
+      path: "_posts/fi"
+      type: "posts"
+    values:
+      lang: fi
 
 google_analytics:
 
