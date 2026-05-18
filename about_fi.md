@@ -45,7 +45,7 @@ Tekoälyekosysteemin kokonaisvaltainen tekninen kehitys ja integrointi.
 
   <li>
     <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/silja%20marketta-huttunen-9013378">Silja Huttunen ↗</a>
-    <strong>Collaborator</strong><br>
+    <strong>Tutkija</strong><br>
     <strong>Tutkijatohtori, kieliteknologia</strong><br>
       Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
   </li>
