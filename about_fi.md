@@ -1,11 +1,11 @@
 ---
-layout: page
-title: "Meistä"
-tagline: "Tietoa DALAI-FIN-projektista"
-lang: fi
-permalink: /about.html
-ref: about
+title: Meistä
 handle: about_fi
+ref: about
+permalink: /about.html
+lang: fi
+tagline: Tietoa DALAI-FIN-projektista
+layout: page
 ---
 
 # Kehitämme tutkimukseen pohjautuvia työkaluja kielitaidon tueksi
@@ -21,9 +21,12 @@ DALAI-FIN kehittää huippuluokan tekoälyavusteista kielen oppimisen ekosysteem
 
 ![](/assets/images/dalai_ecosystem_nocentre_white.png)
 
----
+***
+
 <div class="wp-section" markdown="1">
+
 # Työpaketit
+
 {: .wp-section }
 
 ## Paketti 1: Tekoälyavustaja ja ekosysteemi
@@ -31,6 +34,7 @@ DALAI-FIN kehittää huippuluokan tekoälyavusteista kielen oppimisen ekosysteem
 Tekoälyekosysteemin kokonaisvaltainen tekninen kehitys ja integrointi.
 
 ### Jäsenet
+
 <ul class="wp-members">
   <li>
     <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/roman-yangarber-9079724">Roman Yangarber ↗</a>
@@ -38,15 +42,23 @@ Tekoälyekosysteemin kokonaisvaltainen tekninen kehitys ja integrointi.
     <strong>Professori, kieliteknologia</strong><br>
     Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
   </li>
+
+  <li>
+    <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/silja%20marketta-huttunen-9013378">Silja Huttunen ↗</a>
+    <strong>Collaborator</strong><br>
+    <strong>Tutkijatohtori, kieliteknologia</strong><br>
+      Digitaalisten ihmistieteiden osasto, Helsingin yliopisto<br>
+  </li>
 </ul>
 
----
+***
 
 ## Paketti 2: Tekoälyavusteisen oppimisen pedagoginen perusta
 
 Tekoälypohjaisten, pedagogisesti perusteltujen harjoitusten suunnittelu ja arviointi sekä automaattisen palautteen kehittäminen.
 
 ### Jäsenet
+
 <ul class="wp-members">
   <li>
     <a href="https://www.jyu.fi/en/people/ari-huhta">Ari Huhta ↗</a>
@@ -62,13 +74,14 @@ Tekoälypohjaisten, pedagogisesti perusteltujen harjoitusten suunnittelu ja arvi
   </li>
 </ul>
 
----
+***
 
 ## Paketti 3: Puheentunnistus: ymmärtämis- ja tuottamistaidot
 
 Puheentunnistusteknologian kehittäminen ja arviointi puhumisen taitotason mittaamiseksi sekä kuullun ymmärtämisen ja puhumisen harjoittelun tukemiseksi.
 
 ### Jäsenet
+
 <ul class="wp-members">
   <li>
     <a href="https://www.aalto.fi/fi/ihmiset/lauri-juvela">Lauri Juvela ↗</a>
@@ -84,13 +97,14 @@ Puheentunnistusteknologian kehittäminen ja arviointi puhumisen taitotason mitta
   </li>
 </ul>
 
----
+***
 
 ## Paketti 4: Suuret kielimallit (LLM) toisen kielen opetuksessa ja oppija-analytiikassa
 
 Räätälöidyn kielenoppimissisällön kehittäminen suurten kielimallien avulla sekä tekoälyavusteisen intervention arviointi.
 
 ### Jäsenet
+
 <ul class="wp-members">
   <li><a href="https://www.utu.fi/en/people/filip-ginter">Filip Ginter ↗</a>
   <strong>Vastuullinen tutkija, paketti 4</strong><br>
@@ -109,7 +123,7 @@ Räätälöidyn kielenoppimissisällön kehittäminen suurten kielimallien avull
   </li>
 </ul>
 
----
+***
 
 ## Paketti 5: Aikuisiän toisen kielen oppimisen kognitiivinen perusta
 
@@ -117,6 +131,7 @@ Aikuisten kielenoppimisen kognitiivisten mekanismien tutkiminen kokeellisten men
 Tutkimuksen tuloksia voidaan hyödyntää räätälöityjen ratkaisujen kehittämisessä esimerkiksi suomen kielen prosodian ja fonologian harjoitteluun liittyen.
 
 ### Jäsenet
+
 <ul class="wp-members">
   <li>
     <a href="https://www.helsinki.fi/fi/ihmiset/henkilohaku/riikka-mottonen-9420645">Riikka Möttönen ↗</a>

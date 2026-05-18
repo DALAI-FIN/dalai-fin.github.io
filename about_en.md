@@ -1,16 +1,16 @@
 ---
-layout: page
-title: "Project Overview"
-tagline: "Get to know DALAI‑FIN"
-lang: en
-permalink: /about.html
-ref: about
+title: Project Overview
 handle: about_en
+ref: about
+permalink: /about.html
+lang: en
+tagline: Get to know DALAI‑FIN
+layout: page
 ---
 
 # We develop research‑backed tools to take your language skills to the next level
 
-The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning for adult immigrants.  
+The DALAI‑FIN Research Project aims to revolutionize and democratize second‑language teaching and learning for adult immigrants.
 The target audience is learners who already have basic Finnish or Swedish skills, and require greater proficiency to:
 
 - gain employment,
@@ -21,9 +21,12 @@ DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning e
 
 ![](/assets/images/dalai_ecosystem_nocentre_white.png)
 
----
+***
+
 <div class="wp-section" markdown="1">
+
 # Work Packages
+
 {: .wp-section }
 
 ## WP1: AI Assistant and Ecosystem
@@ -31,6 +34,7 @@ DALAI-FIN develops a state‑of‑the‑art, AI‑assisted language‑learning e
 Overall technical development and integration of the AI ecosystem.
 
 ### Members
+
 <ul class="wp-members">
   <li>
     <a href="https://www.helsinki.fi/en/about-us/people/people-finder/roman-yangarber-9079724">Roman Yangarber ↗</a>
@@ -38,15 +42,23 @@ Overall technical development and integration of the AI ecosystem.
     <strong>Professor, Language technology</strong><br>
     Department of Digital Humanities, University of Helsinki<br>
   </li>
+
+  <li>
+    <a href="https://www.helsinki.fi/en/about-us/people/people-finder/silja%20marketta-huttunen-9013378">Silja Huttunen ↗</a>
+    <strong>Collaborator</strong><br>
+    <strong>Postdoctoral researcher, Language technology</strong><br>
+    Department of Digital Humanities, University of Helsinki<br>
+  </li>
 </ul>
 
----
+***
 
 ## WP2: Pedagogical Basis of AI‑Assisted Learning
 
 Design and evaluate AI‑based, pedagogically motivated exercises and automated feedback.
 
 ### Members
+
 <ul class="wp-members">
   <li>
     <a href="https://www.jyu.fi/en/people/ari-huhta">Ari Huhta ↗</a>
@@ -62,13 +74,14 @@ Design and evaluate AI‑based, pedagogically motivated exercises and automated 
   </li>
 </ul>
 
----
+***
 
 ## WP3: Speech Technology – Comprehension & Production Skills
 
 Develop and assess speech‑technology to evaluate speaking proficiency, and support listening and speaking exercises.
 
 ### Members
+
 <ul class="wp-members">
   <li>
     <a href="https://research.aalto.fi/en/persons/lauri-juvela">Lauri Juvela ↗</a>
@@ -84,13 +97,14 @@ Develop and assess speech‑technology to evaluate speaking proficiency, and sup
   </li>
 </ul>
 
----
+***
 
 ## WP4: Large Language Models (LLMs) in Teaching L2 & Learner Analytics
 
 Develop personalised language‑learning content, using large language models (LLMs), and evaluate AI‑assisted intervention.
 
 ### Members
+
 <ul class="wp-members">
   <li><a href="https://www.utu.fi/en/people/filip-ginter">Filip Ginter ↗</a>
   <strong>Principal investigator, WP4</strong><br>
@@ -109,14 +123,15 @@ Develop personalised language‑learning content, using large language models (L
   </li>
 </ul>
 
----
+***
 
 ## WP5: Cognitive Basis for L2 Learning in Adulthood
 
-Investigate the cognitive mechanisms of adult language learning through experimental studies.  
+Investigate the cognitive mechanisms of adult language learning through experimental studies.
 The findings contribute to the development of personalised AI‑based applications, including training for prosodic and phonological skills in Finnish.
 
 ### Members
+
 <ul class="wp-members">
   <li>
     <a href="https://www.helsinki.fi/en/about-us/people/people-finder/riikka-mottonen-9420645">Riikka Möttönen ↗</a>
