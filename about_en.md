@@ -1,11 +1,11 @@
 ---
 title: Project Overview
 handle: about_en
-ref: about
-permalink: /about.html
 lang: en
-tagline: Get to know DALAI‑FIN
 layout: page
+permalink: /about.html
+ref: about
+tagline: Get to know DALAI‑FIN
 ---
 
 # We develop research‑backed tools to take your language skills to the next level
@@ -120,6 +120,11 @@ Develop personalised language‑learning content, using large language models (L
   <strong>Collaborator</strong><br>
   <strong>Doctoral researcher, Data analytics</strong><br>
   Department of Computing, University of Turku<br>
+  </li>
+<li><a href="https://www.utu.fi/en/people/rosa-salmela">Rosa Salmela ↗</a>
+  <strong>Collaborator</strong><br>
+  <strong>Postdoctoral researcher, Data analytics</strong><br>
+  Turku Research Institute for Learning Analytics, University of Turku<br>
   </li>
 </ul>
 

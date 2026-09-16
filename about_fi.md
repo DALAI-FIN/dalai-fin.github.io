@@ -1,11 +1,11 @@
 ---
 title: Meistä
 handle: about_fi
-ref: about
-permalink: /about.html
 lang: fi
-tagline: Tietoa DALAI-FIN-projektista
 layout: page
+permalink: /about.html
+ref: about
+tagline: Tietoa DALAI-FIN-projektista
 ---
 
 # Kehitämme tutkimukseen pohjautuvia työkaluja kielitaidon tueksi
@@ -120,6 +120,11 @@ Räätälöidyn kielenoppimissisällön kehittäminen suurten kielimallien avull
   <strong>Tutkija</strong><br>
   <strong>Väitöskirjatutkija, data-analytiikka</strong><br>
   Tietojenkäsittelytieteen laitos, Turun yliopisto<br>
+  </li>
+<li><a href="https://www.utu.fi/en/people/rosa-salmela">Rosa Salmela ↗</a>
+  <strong>Tutkija</strong><br>
+  <strong>Tutkijatohtori, data-analytiikka</strong><br>
+  Oppimisanalytiikan tutkimusinstituutti, Turun yliopisto<br>
   </li>
 </ul>
 
