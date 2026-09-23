@@ -1,0 +1,13 @@
+---
+title: Miten aikuinen voisi oppia vieraita kieliä helposti kuin lapsi?
+date: 2026-09-23T13:44:00+00:00
+layout: post
+categories: news
+image: /assets/images/icons8-team-7LNatQYMzm4-unsplash.jpg
+---
+
+Helsingin Sanomat haastatteli Riikka Möttöstä vieraan kielen oppimisesta aikuisiällä.
+
+<a href="https://www.hs.fi/tiede/art-2000012222756.html/">Lue juttu täältä (hs.fi) ↗</a>
+
+Valokuva: <a href="https://unsplash.com/@icons8">Icons8 Team</a>, <a href="https://unsplash.com/photos/white-corded-headphones-7LNatQYMzm4">Unsplash</a>
